@@ -14,19 +14,25 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #c4c4c4;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline overline;
 }
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #e6e6e6;
+}
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #e6e6e6;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #e2e2e2;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -36,8 +42,63 @@ footer {
 ul.posts {
     margin: 20px auto 40px;
     font-size: 1.5em;
+    color: #e2e2e2;
 }
 
 ul.posts li {
     list-style: none;
 }
+
+
+
+
+/*------*/
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -10;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+/*------*/
+
+
+
+/*------*/
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 12px;
+  text-align: center;
+  text-decoration: none
+  border: 1px;
+  border-radius: 50%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-instagram {
+  background: #9c28a8;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/*------*/
