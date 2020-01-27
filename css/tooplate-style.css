@@ -21,6 +21,12 @@
  color: white;
 }
 
+/* email */
+.fa-envelope {
+ background: #bf67eb;
+ color: white;
+}
+
 /* Twitter */
 .fa-twitter {
  background: #55ACEE;
