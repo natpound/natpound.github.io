@@ -24,10 +24,10 @@ function mail2(name, dom, tl, params, display)
 	document.write('<a href="'+m_+e(name,dom,tl)+params+'">'+display+'</a>');
 }
 
-function emailicon(name, dom, tl, params)
+function emailicon(name, dom, tl)
 {
 	document.write('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">')
-	document.write('<a href="'+m_+e(name,dom,tl)+params+'" class="fa fa-envelope"'+'"></a>');
+	document.write('<a href="'+m_+e(name,dom,tl)+'" class="fa fa-envelope"'+'"></a>');
 }
 
 <a href="http://twitter.com/natpound8" class="fa fa-envelope"></a>
