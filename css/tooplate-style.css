@@ -46,7 +46,8 @@ http://www.tooplate.com/view/2088-big-city
 
 */
 body {
-	background: #1A2D4B;
+	/* background: #1A2D4B */
+  background: #42536e;
 	position: relative;
 	color: black;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -93,8 +94,8 @@ a:focus {
 	outline: none;
 }
 
-.tm-section-margin-t { margin-top: 200px; }
-.tm-section-margin-t-small { margin-top: 150px; }
+.tm-section-margin-t { margin-top: 0px; } /* used to be 200px */
+.tm-section-margin-t-small { margin-top: 0px; } /* used to be 150px */
 
 .cd-hero-slider li:first-of-type,
 .cd-hero-slider li:nth-of-type(2),
@@ -189,6 +190,7 @@ button:focus { outline: none; }
     height: 40px;
 }
 
+/* nav bar hover/clicked color */
 .cd-slider-nav .nav-item.selected .nav-link,
 .cd-slider-nav .nav-link:hover,
 .cd-slider-nav .nav-link:focus {
@@ -233,7 +235,11 @@ button:focus { outline: none; }
 	padding: 30px;
 }
 
-.tm-bg-dark-blue { background-color: #1A2D4B; }
+/* BODY BACKGROUND COLOR */
+.tm-bg-dark-blue {
+  /* background-color: #1A2D4B; */
+  background-color: #42536e;
+}
 .tm-bg-white {
 	background-color: rgba(255,255,255,0.8);
 	color: black;
@@ -527,8 +533,14 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 /* Media Queries */
 @media only screen and (min-width: 480px) {
-	.cd-hero-slider h2.tm-text-title { font-size: 2.2em; }
-	.cd-hero-slider h2.tm-text-title-small { font-size: 1.6em; }
+	.cd-hero-slider h2.tm-text-title {
+    font-size: 2.2em;
+    font-weight: bold;
+  }
+	.cd-hero-slider h2.tm-text-title-small {
+    font-size: 1.6em;
+    font-weight: bold;
+  }
 	.tm-textbox-padding { padding: 30px 40px; }
 	.tm-textbox-padding-contact { padding: 30px; }
 
