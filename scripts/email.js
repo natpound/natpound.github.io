@@ -30,8 +30,6 @@ function emailicon(name, dom, tl)
 	document.write('<a href="'+m_+e(name,dom,tl)+'" class="fa fa-envelope"'+'"></a>');
 }
 
-<a href="http://twitter.com/natpound8" class="fa fa-envelope"></a>
-
 
 
 function e(name, dom, tl)
