@@ -61,7 +61,7 @@ body {
   /* ffffff */
 	position: relative;
 	color: black;
-	font-family: 'Georgia', Helvetica, Arial, sans-serif;
+	font-family: 'Courier new', Helvetica, Arial, sans-serif;
 	font-size: 17px;
 	font-weight: 400;
 	overflow-x: hidden;
@@ -299,7 +299,7 @@ button:focus { outline: none; }
 }
 
 .tm-white-header-body {
-	width: 96%;
+	  width: 90%; /* was 96% before */
     display: block;
     margin: -40px auto 0;
 }
