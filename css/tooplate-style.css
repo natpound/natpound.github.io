@@ -61,9 +61,9 @@ body {
   /* ffffff */
 	position: relative;
 	color: black;
-	font-family: 'Courier new', Helvetica, Arial, sans-serif;
+	font-family: sans-serif; /*'courier new Helvetica, '*/
 	font-size: 17px;
-	font-weight: 700;
+	font-weight: 400;
 	overflow-x: hidden;
 }
 
@@ -98,7 +98,7 @@ ul { padding: 0; margin: 0; }
 figure { margin: 0; }
 p:last-child { margin-bottom: 0; }
 a {
-  color: #00054a;
+  color: #245896;
 } /* link colour!!! old: 3f97c9 */
 a, button { transition: all 0.3s ease; }
 a:hover {text-decoration: underline;} /*what do when hover*/
@@ -228,6 +228,7 @@ button:focus { outline: none; }
 .cd-hero-slider .tm-text {
 	font-size: 1em;
 	line-height: 1.8;
+  color:black; /*this is the color / colour !!!! of your fucking text*/
 }
 
 .tm-home-container {
