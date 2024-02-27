@@ -34,7 +34,15 @@
 .fa-twitter {
  /* background: #5185bd;
  color: white; */
- color: #009dd9;
+ color: #000000;
+}
+
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
 }
 
 /* youtube */
@@ -515,7 +523,7 @@ border-top-color: #b8a58d; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 .tm-img {
   	width: 100%;
   	height: auto;
-  	border: 10px solid rgba(255,255,255,0.8);
+  	border: 0px solid rgba(255,255,255,0.8);
   	margin: 0 auto;
 }
 .tm-img-smaller {
